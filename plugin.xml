@@ -51,6 +51,10 @@
             <string name="facebook_app_id">$APP_ID</string>
             <string name="fb_app_name">$APP_NAME</string>
         </config-file>
+        
+        <config-file target="res/values/strings.xml" parent="/resources">
+            <string name="facebook_app_id">$APP_ID</string>
+        </config-file>
 
         <config-file target="AndroidManifest.xml" parent="application">
             <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id "/>
